@@ -11,7 +11,7 @@
 # starting with a capital indicates that it is a class (e.g. String)
 # also name projects/folders with lowercase
 
-# loops in Python can have an else stateuemtn
+# loops in Python can have an else statement
 # for i in range(0, 3):
 #     print(i)
 # else:
