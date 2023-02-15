@@ -44,7 +44,7 @@ print("\N{winking face}")
 # can change the separator and end character
 
 print("Alex", "Davidson")
-#print("Alex", "Davidson", sep=*: end=!!)
+print("Alex", "Davidson", sep="*", end="!!")
 
 # quotes can be single or double, just stick to one
 # if you need to print a special character within a string, precede with backslash
@@ -109,3 +109,12 @@ myList = ["wine", "cheese", "biscuits", "cat food"]
 # <"delimiter">.join(<list>)
 myListStr = "*".join(myList)
 print(myListStr)
+
+# practice formatting
+planets = {'Mercury': 57.91,
+           'Venus': 108.2,
+           'Earth': 149.597870,
+           'Mars': 227.94
+}
+for i, key in enumerate(planets.keys(), 1):
+    print("{:2d} {:<10s} {:06.2f} Gm".format(i, key, planets[key]))
