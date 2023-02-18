@@ -80,7 +80,7 @@ print(myTuple)
 # swapping values
 d = 6
 e = 9
-# to swap, you would need an empty variably
+# to swap, you would need an empty variable
 f = d
 d = e
 e = f
